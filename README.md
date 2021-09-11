@@ -1,2 +1,4 @@
-# SDwP
-This repo for the assignments of Software Design with Python subject (MR21-RO) Innopolis University
+
+<h1> Software Design with Python </h1>
+
+This repo is for assignments of master's subject "Software Design with Python" (MR21-RO) Innopolis University, Russia.
