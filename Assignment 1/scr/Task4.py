@@ -15,4 +15,5 @@ class decorator4:
             stk = traceback.extract_tb(tb)
             with open('log_file.txt', 'a+') as f:
                 f.write(f'{datetime.strftime(datetime.now(), f"%y-%m-%d %H:%M:%S: ")}function {stk[2][2]} {e} \n')
+            print(f'Error in calling {stk[2][2]} written in the log file.')
         return None
