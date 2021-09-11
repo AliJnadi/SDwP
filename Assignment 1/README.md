@@ -139,8 +139,9 @@ if __name__ == '__main__':
 The output will be the folowing
 ```python
 pascal    	call 1 executed in 0.0001 sec
+Error in calling test written in the log file.
 factorial 	call 1 executed in 0.0000 sec
 ```
-As you can see the division by zero dosen't terminate the program, because the exception error sent to the log file.
+As you can see the division by zero dosen't terminate the program, because the exception error sent to the log file, and an erro massage printed on the terminal.
     
     21-09-11 18:55:55:  function test division by zero 
