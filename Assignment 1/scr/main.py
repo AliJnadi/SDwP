@@ -7,6 +7,7 @@ from Task2 import decorator2
 from Task3 import decorator3
 from Task4 import decorator4
 
+
 @decorator4
 @decorator1
 def even(input_list):
@@ -111,8 +112,20 @@ def q_solver(a, b, c):
             return [(-b + cmath.sqrt(delta)) / (2 * a), (-b - cmath.sqrt(delta)) / (2 * a)]
 
 
+def divider(n):
+    """
+    This function finds dividers of a given number.
+    :param n: input number
+    This function return list of input number dividers
+    """
+    return [list(filter(lambda x: n % x == 0, range(1, n)))]
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    pascal(3)
+    test(1)
+    factorial(5)
     pascal(3)
     test(0)
     factorial(5)
