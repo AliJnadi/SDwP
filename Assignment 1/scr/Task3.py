@@ -8,10 +8,10 @@ class decorator3:
 
     def __init__(self, original_function):
         self.fun = original_function
-        decorator3.count = 0
+        self.count = 0
 
     def __call__(self, *args, **kwargs):
-        decorator3.count += 1
+        self.count += 1
         with redirect_stdout(io.StringIO()) as _:
             start = time.perf_counter()
             result = self.fun(*args, **kwargs)
