@@ -117,10 +117,12 @@ pascal        3       0.000105890s
 q_solver      4       0.002138820s
 ```
 The Task3_Output.txt will contain:
-	pascal    	call 1 executed in 0.0001 sec
+```python
+pascal    	call 1 executed in 0.0001 sec
 fib       	call 1 executed in 0.0000 sec
 factorial 	call 1 executed in 0.0000 sec
 q_solver  	call 1 executed in 0.0043 sec
+```
 5. Task4.py
   This is another class decorator, decorator4, this decorator used with any other decorators to prevent errors from interrupting the program. If any other decorator faces an exception this decorater will catch it, write to a log file: time stamp, name of the function that throw the exception, and the exception message.
 ```python
