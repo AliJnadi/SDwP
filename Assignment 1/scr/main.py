@@ -111,7 +111,8 @@ def q_solver(a, b, c):
             print('QE with complex solution')
             return [(-b + cmath.sqrt(delta)) / (2 * a), (-b - cmath.sqrt(delta)) / (2 * a)]
 
-
+@decorator4
+@decorator1
 def divider(n):
     """
     This function finds dividers of a given number.
