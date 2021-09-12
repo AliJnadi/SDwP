@@ -89,7 +89,7 @@ Output:	[1]
 		    [1, 2, 1]
 ```
 4. Task3.py
-This is a class decorator, decorator3, witch is extend for decorator1, this decorator append its output (number of calling and excecuation time) to a Task3.txt file (if file is not exixst it will create it) and this class has a function called "print_rank()", this function print the ranking of calling functions from fastest to slowest depend on excuation time.
+This is a class decorator, decorator3, witch is extend for decorator1, this decorator append its output (number of calling and excecuation time) to a Task3_Output.txt file (if file is not exixst it will create it) and this class has a function called "print_rank()", this function print the ranking of calling functions from fastest to slowest depend on excuation time.
 ```python
 from Task3 import decorator3
 
@@ -116,7 +116,11 @@ fib           2       0.000047165s
 pascal        3       0.000105890s
 q_solver      4       0.002138820s
 ```
-
+The Task3_Output.txt will contain:
+	pascal    	call 1 executed in 0.0001 sec
+fib       	call 1 executed in 0.0000 sec
+factorial 	call 1 executed in 0.0000 sec
+q_solver  	call 1 executed in 0.0043 sec
 5. Task4.py
   This is another class decorator, decorator4, this decorator used with any other decorators to prevent errors from interrupting the program. If any other decorator faces an exception this decorater will catch it, write to a log file: time stamp, name of the function that throw the exception, and the exception message.
 ```python
