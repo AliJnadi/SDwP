@@ -12,7 +12,7 @@ This repo contain the files for my first assignment in SDwP subject , M21-RO, In
 This repo contains five .py files
 
 1. main.py
-  This is the main file where you can find seven functions for testing.
+  This is the main file where you can find eight functions for testing.
 
 2. Task1.py
   This contains decorator1 witch is a function decorator that print the count of calling a function with the excuation time. It is very imporatant to illustrate that this decorator prvent decorated function from printing its output.
